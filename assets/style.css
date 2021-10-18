@@ -1,0 +1,410 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color:black;
+}
+.container{
+    max-width:100%;
+    height: 600px;
+    background-image: url('../assets/images/slider1.jpg');
+}
+
+.container-center{
+    width: 80%;
+    margin: 0 auto;
+}
+.logo{
+    margin-top: 3px;
+    padding: 2px 10px 2px 20px;
+    display: inline;
+}
+.nav {
+    width: 100%;
+    display: flex;
+    
+}
+.nav ul{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+.nav li{
+    list-style: none;
+    padding-left: 20px;
+}
+.nav li a{
+    text-decoration: none;
+    color: white;
+}
+.banner{
+    margin: 0 auto;
+    max-width: 384px;
+    margin-top: 200px;
+}
+.banner,h1,span{
+    line-height: 20px;
+    color: white;
+}
+.banner h1{
+    line-height: 20px;
+    color: white;
+}
+.banner h4{
+    line-height: 20px;
+    color:rgb(10, 224, 182);
+}
+.content span{
+    color: black;
+}
+.green{
+    margin: 70px 0;
+    font-size: 13px;
+    background-color: rgb(10, 224, 182);
+    border: none;
+    color: white;
+    padding: 12px 12px;
+    border-top: 6px solid #fff;
+}
+.blue{
+    margin-left: 20px;
+    font-size: 13px;
+    border: none;
+    color: white;
+    padding: 12px 12px;
+    background-color: rgb(0,203,246);
+    border-top: 6px solid #fff;
+
+}
+
+.four li{
+    color:white;
+    list-style: none;
+    background-color: chocolate;
+    height: 200px;
+    width:calc(100%/4) ;
+    text-align: center;
+}
+.four li:nth-child(odd){
+    background-color: #1c2a33;
+}
+.four li:nth-child(even){
+    background-color:rgb(24,207,171)
+
+    ;
+}
+.four{
+    display: flex;
+}
+.four img{
+    align-items: center ;
+    margin-top: 50px;
+}
+.four li hr{
+    height: 9px;
+}
+.four li hr{
+    background-color:white;
+}
+.four li hr:nth-child(even){
+    background-color:blue;
+}
+.amazing-features{
+    font-size: 2rem;
+    text-align: center;
+    height: 600px;
+}
+.amazing-features h3{
+    line-height: 100px;
+}
+.content{
+    height: 160px;
+    width:calc(100%/3);
+    padding: 18px;
+    
+    
+}
+.headings{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin: 2px;
+}
+
+.content p{
+    font-size: 1rem;
+    float: left;
+}
+#feature{
+    line-height: 2px;
+    
+}
+#feature i{
+    font-size: 48px;
+    margin-right: 10px;
+    color: rgb(24,207,171);
+}
+
+.banner-mid{
+    display: flex;
+}
+.left{
+    height: 600px;
+    width: 50%;
+    margin-right: 10px;
+}
+.left img{
+    width:100%;
+    margin-top:254px;
+}
+
+.right{
+    height: 600px;
+    width: 50%;
+    margin-left: 10px;
+}
+.head{
+    color: white;
+}
+.right ul{
+    display: flex;
+}
+.right h5{
+    color: white;
+    font-size: 2.4rem;
+    padding-top: 60px;
+}
+.right span{
+    display: block;
+    color: white;
+    font-size: 2.6rem;
+    padding-top: 4px;
+}
+.right li{
+    color: white;
+    list-style-type:none;
+    font-weight: lighter;
+    margin-top: 60px;
+    padding: 10px 10px 0px 0px;
+}
+.skills{
+    margin-top: 35px;
+}
+.skill span{
+    font-size: 0.8em;
+    font-weight: lighter;
+    margin-left: 15px;
+}
+.skill{
+    height: 30px;
+    width: 70%;
+    margin-top: 10px;
+    color:white;
+}
+.skill:nth-child(1){
+    border: 2px solid grey;
+    border-radius: 5px;
+    background-color:transparent;
+}
+.skill:nth-child(2){
+    border: 2px solid grey;
+    border-radius: 5px;
+    background-color:transparent;
+}
+.skill:nth-child(3){
+    border: 2px solid grey;
+    border-radius: 5px;
+    background-color:transparent;
+}
+.skill:nth-child(4){
+    border: 2px solid grey;
+    border-radius: 5px;
+    background-color:transparent;
+}
+.skill:nth-child(5){
+    border: 2px solid grey;
+    border-radius: 5px;
+    background-color:transparent;
+}
+.work{
+    height: 930px;
+
+}
+.work span{
+    line-height: 200px;
+    height: 150px;
+    color: black;
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+}
+.work img{
+    display: block;
+    margin: 0 auto;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-top: 35px;
+}
+.menu li{
+    padding: 8px;
+    background-color: white;
+    height: 40px;
+    border: 0.5px solid black;
+}
+.pics{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+
+}
+.image{
+    height: 150px;
+    width:calc(100%/4);
+}
+.image img{
+    height: 150px;
+    width: 256px;
+}
+.btt{
+    color: white;
+    background-color: rgb(24, 207, 171);
+    height: 40px;
+    width: 110px;
+    position: absolute;
+    left: 46%;
+    margin-top: 60px;
+    border: 1px;
+    border-radius: 5px;
+}
+.services{
+    height: 370px;
+}
+.our-services{
+    height: 370px;
+}
+#services{
+    color: black;
+    margin-left: 410px;
+    font-size: 3rem;
+}
+#services-two{
+ display: block;
+ margin: 0 auto;
+ margin-top: 10px;
+ padding: 10px;
+}
+
+/* .upper{
+    color: black;
+} */
+.list{
+    display: flex;
+    justify-content: center;
+}
+.list li{
+    padding: 21px;
+    height: 58px;
+    background-color:whitesmoke;
+    list-style: none;
+    border: 1px solid black;
+}
+.list-bottom{
+    display: flex;
+    margin: 10px 105px;
+}
+.list-bottom img{
+    height: 160px;
+    width: 160px;
+    margin: 0;
+    padding: 0;
+
+}
+.list-bottom p{
+    margin-left:10px;
+    text-align: justify;
+}
+/* .buy{
+    height: 200px;
+
+}
+.buy-sell{
+    height: 200px;
+} */
+#buy{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    line-height: 255px;
+    font-size: 2rem;
+    color: lightgreen;
+}
+#install{
+    display: flex;
+    justify-content: center;
+
+}
+#butt{
+    margin-top: 50px;
+    position: absolute;
+    left: 45%;
+    padding: 15px;
+    background-color: lightgreen;
+    border-radius: 6px;
+}
+.stats{
+    background-color: lightpink;
+    height: 200px;
+    width: 100%;
+    border: 2px solid black;
+}
+/* .four-second{
+    display: flex;
+} */
+.sect{
+    height: 100px;
+    width: 200px;
+    background-color: brown;
+}
+
+.icon i{
+    font-size:48px;
+    margin-right: 10px;
+    color: rgb(24,207,171);
+}
+
+.four-bottom li{
+    color:white;
+    list-style: none;
+    background-color: chocolate;
+    height: 200px;
+    width:calc(100%/4) ;
+    text-align: center;
+}
+.four-bottom li:nth-child(odd){
+    background-color: #1c2a33;
+}
+.four-bottom li:nth-child(even){
+    background-color:rgb(24,207,171);
+
+    
+}
+.four-bottom{
+    display: flex;
+}
+.four-bottom img{
+    align-items: center ;
+    margin-top: 50px;
+}
+.four-bottom li hr{
+    height: 9px;
+}
+.four-bottom li hr{
+    background-color:white;
+}
+.four-bottom li hr:nth-child(even){
+    background-color:blue;
+}
